@@ -1,0 +1,288 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+.promo {
+    height: 800px;
+    background: url(../img/mainScreenBg/mainScreenBg.jpg) center center / cover no-repeat;
+    padding: 39px 0px 62px 0px ;
+}
+.logo .logo-img {
+    display : block;
+    margin : 0 auto;
+}
+.logo .logo-text {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+}
+h1 {
+    margin-top: 50px;
+}
+.title {
+    font-size: 41px;
+    color: rgb(249, 191, 59);
+    text-transform: uppercase;
+    text-align: center;   
+    font-weight: 900;
+}
+.simple .title-big {
+    font-size: 80px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;      
+    margin-top: 21px;
+}
+h2.title {
+    margin-top: 30px;
+}
+.promo-text {
+    padding: 0px 13px;
+    margin-top: 23px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 1114px;
+    height: 76px;      
+}
+.free {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(249, 191, 59);
+
+}
+.promo .promo-btn, .present .present-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 313px;
+    height: 72px;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border : 4px solid rgba(0, 0, 0, 0.23);
+    background-image : linear-gradient(to top, #2729b9 0%, #3ab6da 0%);
+ 
+    font-size: 21px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: -0.707px -0.707px 0px rgba(0, 0, 0, 0.22);
+
+    cursor: pointer;
+    outline: none;
+}
+.present .present-btn {
+    margin-top: 66px;
+}
+.more {
+    margin-top: 60px;
+}
+.more .more-text {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;  
+}
+.more .more-img {
+    display : block;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+.waiting {
+    min-height: 604px;
+    background-color : #efefef;
+    padding: 85px 0 75px 0;
+}
+.waiting .waiting-header, .finish .finish-header {
+        font-size: 30px;
+        color: rgb(37, 37, 37);
+        text-transform: uppercase;
+        line-height: 0.4;
+        text-align: center;
+}
+.finish .finish-header {
+    color: white;
+}
+.waiting .waiting-divider, .finish .finish-divider {
+        background-color: rgb(249, 191, 59);
+        width: 217px;
+        height: 4px;
+        margin: 0 auto;
+        margin-top: 18px;      
+}
+.waiting .waiting-subheader {
+    margin-top: 17px;
+    font-size: 23px;
+    color: rgb(74, 74, 74);
+    text-align: center;
+    font-weight: 400;      
+}
+.waiting .waiting-wrapper {
+   margin-top: 45px; 
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+.waiting .waiting-wrapper .waiting-item {
+    /* display : inline-block;
+    vertical-align: top;
+    margin: 0px 15px; */
+    width: 339px;
+    text-align: center;
+}
+.waiting .waiting-wrapper .waiting-item .waiting-img {
+    width: 100%;
+}
+.waiting .waiting-wrapper .waiting-item .waiting-descr {
+    margin-top: 33px;
+    font-size: 15px;
+    color: rgb(74, 74, 74);
+    line-height: 21px;
+    font-weight: 300;
+    text-align: center;
+}
+.optimization {
+    min-height: 550px;
+    padding: 102px 0px 107px 0px;
+}
+.optimization .optimization-header {
+    margin-left: 391px;
+    font-size: 29px;
+    font-weight: 400;
+    color: #299cbd; 
+    text-transform: uppercase;       
+}
+.optimization .optimization-text {
+    margin-top: 25px;
+    margin-left: 391px;
+    color: #4a4a4a;
+    font-size: 17px;
+    font-weight: 300;
+}
+.optimization .optimization-text span {
+    font-weight: 700;
+}
+.optimization .optimization-img {
+    position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
+}
+.finish {
+    min-height: 447px;
+    padding: 86px 0px 79px 0px;
+    background : url(../img/mainScreenBg/mainScreenBg2.jpg) center center / cover no-repeat;
+}
+.finish .finish-wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+.finish .finish-wrapper .finish-item {
+    width: 204px;
+    /* text-align: center; */
+}
+.finish .finish-wrapper .finish-item .finish-round {
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+}
+.finish .finish-wrapper .finish-item .finish-descr {
+    margin-top: 25px;
+    text-align: center;
+    color: #efefef;
+    font-size: 17px;
+    font-weight: 300;
+}
+.present {
+    min-height: 665px;
+    padding: 80px 0px 128px 0px;
+    background-color: rgb(239, 239, 239);
+}
+.present .container {
+    width: 1075px;
+    margin: 0 auto;
+}
+.present .present-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.present .present-text {
+    margin-top: 36px;
+    font-size: 30px;
+    color: rgb(37, 37, 37);
+    text-align: center;      
+}
+.the-last .container {
+    min-height: 610px;
+    padding: 80px 0px 80px 0px;
+}
+.the-last .container .the-last-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.the-last .container .last-header {
+    margin-top: 39px;
+    font-size: 30px;
+    color: rgb(37, 37, 37);
+    text-transform: uppercase;
+    text-align: center;
+}
+.the-last .container .last-time {
+    margin-top: 67px;
+    font-size: 36px;
+    color: rgb(41, 156, 189);
+    text-transform: uppercase;
+    line-height: 0.333;
+    text-align: center;
+    font-weight: 600;
+}
+.the-last .container .last-intime {
+    margin-top: 65px;
+    font-weight: 700;
+    font-size: 23px;
+    color: rgb(74, 74, 74);
+    text-align: center;
+}
+.footer {
+    min-height: 192px;
+    background-color: rgb(26, 26, 26);
+}
+.footer .container {
+    text-align: center;
+    padding: 52px 0px;
+    font-size: 15px;
+    color: rgb(136, 136, 136);
+}
+.footer .container .reference {
+    margin-top: 25px;
+}
+.footer .container .phone-number {
+    margin-top: 21px;
+}
+a {
+    color:  rgb(136, 136, 136);
+}
