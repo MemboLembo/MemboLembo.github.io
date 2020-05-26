@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "https://membolembo.github.io/starwars/static/css/main.a6e2a475.chunk.css",
-    "main.js": "https://membolembo.github.io/starwars/static/js/main.f51b33f7.chunk.js",
-    "main.js.map": "https://membolembo.github.io/starwars/static/js/main.f51b33f7.chunk.js.map",
-    "runtime-main.js": "https://membolembo.github.io/starwars/static/js/runtime-main.ef16b385.js",
-    "runtime-main.js.map": "https://membolembo.github.io/starwars/static/js/runtime-main.ef16b385.js.map",
-    "static/js/2.5389dd23.chunk.js": "https://membolembo.github.io/starwars/static/js/2.5389dd23.chunk.js",
-    "static/js/2.5389dd23.chunk.js.map": "https://membolembo.github.io/starwars/static/js/2.5389dd23.chunk.js.map",
-    "index.html": "https://membolembo.github.io/starwars/index.html",
-    "precache-manifest.2e27e8a29ec49a17bcb740b684db8739.js": "https://membolembo.github.io/starwars/precache-manifest.2e27e8a29ec49a17bcb740b684db8739.js",
-    "service-worker.js": "https://membolembo.github.io/starwars/service-worker.js",
-    "static/css/main.a6e2a475.chunk.css.map": "https://membolembo.github.io/starwars/static/css/main.a6e2a475.chunk.css.map",
-    "static/js/2.5389dd23.chunk.js.LICENSE.txt": "https://membolembo.github.io/starwars/static/js/2.5389dd23.chunk.js.LICENSE.txt"
+    "main.css": "/starwars/static/css/main.a6e2a475.chunk.css",
+    "main.js": "/starwars/static/js/main.f51b33f7.chunk.js",
+    "main.js.map": "/starwars/static/js/main.f51b33f7.chunk.js.map",
+    "runtime-main.js": "/starwars/static/js/runtime-main.34bc460c.js",
+    "runtime-main.js.map": "/starwars/static/js/runtime-main.34bc460c.js.map",
+    "static/js/2.5389dd23.chunk.js": "/starwars/static/js/2.5389dd23.chunk.js",
+    "static/js/2.5389dd23.chunk.js.map": "/starwars/static/js/2.5389dd23.chunk.js.map",
+    "index.html": "/starwars/index.html",
+    "precache-manifest.74cd4710915463cb83ff8ea37b02d2e2.js": "/starwars/precache-manifest.74cd4710915463cb83ff8ea37b02d2e2.js",
+    "service-worker.js": "/starwars/service-worker.js",
+    "static/css/main.a6e2a475.chunk.css.map": "/starwars/static/css/main.a6e2a475.chunk.css.map",
+    "static/js/2.5389dd23.chunk.js.LICENSE.txt": "/starwars/static/js/2.5389dd23.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ef16b385.js",
+    "static/js/runtime-main.34bc460c.js",
     "static/js/2.5389dd23.chunk.js",
     "static/css/main.a6e2a475.chunk.css",
     "static/js/main.f51b33f7.chunk.js"
